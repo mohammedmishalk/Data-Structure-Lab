@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include<conio.h>
+#include<stdlib.h>
 
 typedef struct {int r,c,v;} term;
 typedef struct
