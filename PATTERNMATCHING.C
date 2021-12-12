@@ -1,5 +1,6 @@
 #include <stdio.h> 
 #include <string.h> 
+#include<conio.h>
 void main() 
 { 
     char text[20],pat[20];
