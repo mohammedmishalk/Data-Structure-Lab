@@ -1,7 +1,9 @@
 #include<stdio.h>
-int main(void)
+​#​include​<​conio.h​>
+void main(void)
 {
-    int array[5], i, j, temp,n;
+    int array[5], i, j, temp,n;  
+ ​   ​clrscr​();
     printf("Enter the number of elements : ");
     scanf("%d",&n);
     printf("Enter %d numbers : ",n);
@@ -26,5 +28,5 @@ int main(void)
     {
         printf(" %d ",array[i]);
     }
-    return 0;
+    getch();
 }
