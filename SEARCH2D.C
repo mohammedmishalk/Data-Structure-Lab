@@ -1,9 +1,7 @@
 #include<stdio.h>
-#include<conio.h>
 void main()
 {
 	int a[10][10],i,j,m,n,x,count=0;
-	clrscr();
 	printf("\nEnter the Row and column : ");
 	scanf("%d%d",&m,&n);
 	printf("\nEnter %d elements : ",m*n);
@@ -27,5 +25,4 @@ void main()
        if(count==0)
     printf("Item Not found");
 
-  getch();
 }

@@ -1,6 +1,5 @@
 #include<stdio.h>
 #include<alloc.h>
-#include<conio.h>
 
 typedef struct listnode* listpointer;
 
@@ -25,7 +24,6 @@ void main()
 	int n,pos;
 	do
 	{
-		clrscr();
 		printf("\n\tLINKED LIST OPERATIONS\n");
 		printf("\n\t\t1. CREATE");
 		printf("\n\t\t2. LIST");
@@ -57,7 +55,6 @@ void main()
 			       break;
 			default:continue;
 		}
-		getch();
 	}while(choice!=6);
 }
 

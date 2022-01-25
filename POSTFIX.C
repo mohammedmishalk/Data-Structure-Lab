@@ -1,16 +1,13 @@
 #include<stdio.h>
-#include<conio.h>
 
 int evaluate(char*);
 
 void main()
 {
 	char exp[15];
-	clrscr();
 	printf("Enter an expression in postfix form : ");
 	gets(exp);
 	printf("\nResult = %d",evaluate(exp));
-	getch();
 }
 
 int evaluate(char *str)

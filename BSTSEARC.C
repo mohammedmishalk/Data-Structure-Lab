@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include<conio.h>
 #include<alloc.h>
 
 typedef struct treeNode* treePointer;
@@ -20,7 +19,6 @@ void main()
 	int choice,n;
 	do
 	{
-		clrscr();
 		printf("\n\tBINARY SEARCH TREE OPERATIONS\n");
 		printf("\n\t\t1. Create");
 		printf("\n\t\t2. Search");
@@ -43,7 +41,6 @@ void main()
 				break;
 			default:continue;
 		}
-		getch();
 	}while(choice!=3);
 }
 
