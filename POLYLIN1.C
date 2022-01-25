@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include<conio.h>
 #include<alloc.h>
 
 typedef struct node* polynomial;
@@ -14,7 +13,6 @@ void main()
 {
 	polynomial p,t;
 	int i,n;
-	clrscr();
 	printf("Number of terms in the polynomial : ");
 	scanf("%d",&n);
 	printf("\nEnter %d terms for the polynomial:\n",n);
@@ -46,5 +44,4 @@ void main()
 		else if(t->exp==1) printf("%dx",t->coef);
 		else printf("%dx^%d",t->coef,t->exp);
 	}
-	getch();
 }

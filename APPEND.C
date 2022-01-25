@@ -1,9 +1,7 @@
 #include<stdio.h>
-#include<conio.h>
 void main()
 {
 	int a[10],b[10],i,j,m,n;
-	clrscr();
 	printf("Enter the size of first array: ");
 	scanf("%d",&m);
 	printf("\nEnter %d elements into first array:\n",m);
@@ -19,5 +17,4 @@ void main()
 	printf("\nFirst array after appending second array:\n");
 	for(i=0;i<m+n;i++)
 	printf("\n%d",a[i]);
-	getch();
 }

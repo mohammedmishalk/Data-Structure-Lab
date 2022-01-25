@@ -1,11 +1,9 @@
 #include<stdio.h>
-#include<conio.h>
 
 void main()
 {
 	struct {int r,c,v;} terms[10];
 	int rows,cols,n,i,j,k;
-	clrscr();
 	printf("Enter the order of the sparse matrix : ");
 	scanf("%d%d",&rows,&cols);
 	printf("\nEnter the number of non zero elements : ");
@@ -29,5 +27,4 @@ void main()
 			else printf("   0");
 		printf("\n");
 	}
-	getch();
 }

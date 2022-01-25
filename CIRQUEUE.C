@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include<conio.h>
 
 #define LENGTH 5
 
@@ -15,7 +14,6 @@ void main()
 	int ch,n;
 	do
 	{
-		clrscr();
 		printf("\n\tQUEUE OPERATIONS\n");
 		printf("\n\t\t1.ADD");
 		printf("\n\t\t2.DELETE");
@@ -38,7 +36,6 @@ void main()
 				break;
 			default:continue;
 		}
-		getch();
 	}while(ch!=4);
 }
 

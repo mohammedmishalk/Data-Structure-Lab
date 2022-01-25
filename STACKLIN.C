@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include<conio.h>
 #include<alloc.h>
 
 typedef struct stacknode* stackpointer;
@@ -21,7 +20,6 @@ void main()
 	int ch,n;
 	do
 	{
-		clrscr();
 		printf("\n\tSTACK OPERATIONS\n");
 		printf("\n\t\t1.PUSH");
 		printf("\n\t\t2.POP");
@@ -44,7 +42,6 @@ void main()
 				break;
 			default:continue;
 		}
-		getch();
 	}while(ch!=4);
 }
 

@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <string.h>
-#include<conio.h>
 void main()
 {
     char text[20],pat[20];
@@ -9,7 +8,6 @@ void main()
     gets(text);
     printf("Enter the pattern to find : ");
     gets(pat);
-    clrscr();
 
     a = strlen(pat);
     b = strlen(text);
@@ -30,5 +28,4 @@ void main()
     if (flag==0)
         printf("Not found");
 
-    getch();
 }

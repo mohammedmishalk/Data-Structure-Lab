@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include<conio.h>
 
 void sort(int*,int);
 void qsort(int*,int,int);
@@ -7,7 +6,6 @@ void qsort(int*,int,int);
 void main()
 {
 	int a[10],n,i;
-	clrscr();
 	printf("Enter the size : ");
 	scanf("%d",&n);
 	printf("\nEnter %d elements into the array :\n",n);
@@ -20,7 +18,6 @@ void main()
 	printf("\n\nArray after sorting  :");
 	for(i=0;i<n;i++)
 	printf(" %d",a[i]);
-	getch();
 }
 
 void sort(int a[],int n)

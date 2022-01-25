@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include<conio.h>
 #include<string.h>
 
 void sort(char [][15],int);
@@ -8,18 +7,15 @@ void main()
 {
 	char list[10][15];
 	int i,n;
-	clrscr();
 	printf("\nEnter number of strings : ");
 	scanf("%d",&n);
 	printf("\nEnter %d strings:\n",n);
-	flushall();
 	for(i=0;i<n;i++)
 	gets(list[i]);
 	sort(list,n);
 	printf("\nSorted list:\n");
 	for(i=0;i<n;i++)
 	printf("\n%s",list[i]);
-	getch();
 }
 void sort(char str[][15],int n)
 {

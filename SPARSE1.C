@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include<conio.h>
 #include<stdlib.h>
 
 typedef struct {int r,c,v;} term;
@@ -17,7 +16,6 @@ sparse mul(sparse,sparse);
 void main()
 {
 	sparse s1,s2,s3,s4;
-	clrscr();
 	printf("Enter the first sparse matrix:");
 	read(&s1);
 	printf("\nEnter the second sparse matrix:");
@@ -32,7 +30,6 @@ void main()
 	printf("\nMatrix product:");
 	s4=mul(s1,s2);
 	print(s4);
-	getch();
 }
 
 void read(sparse* s)

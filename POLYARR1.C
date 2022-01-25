@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include<conio.h>
 
 typedef struct {int coef,exp;} polynomial;
 
@@ -10,7 +9,6 @@ void main()
 {
 	polynomial p1[10],p2[10],p3[20],p4[50],t;
 	int n1,n2,n3,n4,i,j,k;
-	clrscr();
 	printf("Number of terms in first polynomial : ");
 	scanf("%d",&n1);
 	printf("\nEnter %d terms for first polynomial:\n",n1);
@@ -53,7 +51,6 @@ void main()
 	print(p3,n3);
 	printf("\nPolynomial product : ");
 	print(p4,n4);
-	getch();
 }
 
 void read(polynomial p[],int n)

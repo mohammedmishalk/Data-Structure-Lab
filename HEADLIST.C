@@ -1,6 +1,5 @@
 #include<stdio.h>
 #include<alloc.h>
-#include<conio.h>
 
 typedef struct listnode* listpointer;
 
@@ -63,7 +62,6 @@ void main()
 			       break;
 			default:continue;
 		}
-		getch();
 	}while(choice!=7);
 }
 
